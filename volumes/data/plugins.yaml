@@ -1,0 +1,5 @@
+plugins:
+  - name: "echo"
+    package: "plugins.echo_plugin"
+    enabled: true
+    default: true  # Ce plugin traitera tous les messages sans préfixe

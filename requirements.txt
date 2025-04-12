@@ -1,0 +1,6 @@
+pyyaml
+python-dotenv
+cryptography
+aiofiles
+sqlalchemy[async]
+aiosqlite

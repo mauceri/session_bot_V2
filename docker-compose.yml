@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  session-bot:
+    build: .
+    volumes:
+      - ./volumes/data:/data
+      - ./volumes/plugins:/plugins
+    environment:
+      - SESSION_BOT_MNEMONIC=${SESSION_BOT_MNEMONIC:-}  # Optional mnemonic for restoring session
+    restart: unless-stopped
