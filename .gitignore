@@ -2,6 +2,7 @@ node_modules/
 *.pyc
 __pycache__/
 .env
+venv/
 tmp/
 session_bot_config.sh
 session_bot_phi_local
